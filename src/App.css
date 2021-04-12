@@ -1,3 +1,30 @@
-*{
+* {
   margin: 0;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.app__status {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: rgba(73, 81, 82, 0.247);
+}
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.app__left {
+  flex: 0.9;
+}
+
+@media (max-width: 990px) {
+  .App {
+    flex-direction: column;
+  }
 }
